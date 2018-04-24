@@ -8,24 +8,131 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-    <style type="text/css">
-      header {
-          height: 50vh;
-          background: url(images/bg.png) no-repeat center;
-          background-size: cover;
-          margin-bottom: 10px;
-      }
-    </style>
-  </head>
-  <body>
-  <header>
-    <div class="container-fluid">
-       <h1>Smart Science</h1>
-    </div>
-  </header>
+    <title class="text-white">Hello, world!</title>
 
-    <h1>Hello, Neww Work!</h1>
+    <style type="text/css"><!--
+    .jumbotron { 
+      background:url(<%= asset_path 'bg.jpg' %>) center no-repeat; 
+      background-size: cover;
+    }
+    </style>
+ </head>
+ <body>
+ <section>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <span class="navbar-brand h1 mb-0" href="#">Navbar</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav">
+      <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarnav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link Active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another Action</a>
+            <a class="dropdown-item" href="#">Something else</a>
+          </div>  
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="search">
+        <button class="btn btn-outline-success my-2 my-md-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  </section>
+  <section>
+    <div class="jumbotron">
+      <h3 class="display-4 text-white">Hello, world!</h3>
+      <p class="text-white">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-6">
+      <p class="text-white"></p>
+      <hr class="my-6">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+    <h1>Smart Feature</h1>
+
+    <div class="container mt-4">
+      <dir class="card-deck">
+        <div class="card">
+          <div class="card-img">
+               <%= image_tag 'bg.jpg', :class => "card-img-top" %>
+          </div>
+          <div class="card-body">
+           <h3>皇帝ペンギン</h3>
+           <h4 class="card-subtitle mb-3 text-muted">Emperor Penguin</h4>
+           <p class="card-text">
+             工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン
+           </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+               <%= image_tag 'bg.jpg', :class => "card-img-top" %>
+          </div>
+          <div class="card-body">
+           <h3>皇帝ペンギン</h3>
+           <h4 class="card-subtitle mb-3 text-muted">Emperor Penguin</h4>
+           <p class="card-text">
+             工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン
+           </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+               <%= image_tag 'bg.jpg', :class => "card-img-top" %>
+          </div>
+          <div class="card-body">
+           <h3>皇帝ペンギン</h3>
+           <h4 class="card-subtitle mb-3 text-muted">Emperor Penguin</h4>
+           <p class="card-text">
+             工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン
+           </p>
+          </div>
+        </div>
+      </dir>
+    </div>
+    </section>
+    <section>
+    <div class="container-fluid mt-4">
+      <div class="progress">
+        <div class="progress-bar w-75"></div>
+      </div>
+      <hr>
+      <div class="progress">
+        <div class="progress-bar bg-warning" style="width: 77%"></div>
+      </div>
+      <hr>
+      <div class="progress" style="height: 10px">
+        <div class="progress-bar" style="width: 27%"></div>
+      </div>
+      <hr>
+    </div>
+    </section>
+    <section></section>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 order-1 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-info">カラム1</div>
+        <div class="col-4 order-4 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-success">カラム2</div>
+        <div class="col-4 order-5 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-info">カラム3</div>
+        <div class="col-4 order-6 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-success">カラム4</div>
+        <div class="col-4 order-2 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-info">カラム5</div>
+        <div class="col-4 order-3 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-success">カラム6</div>
+      </div>
+    </div>
+
+    <h1>Hello, World!</h1>
 
     <p class="lead">いつもありがとうございます！こちらからお願い致します</p>
     <p>いつもありがとうございます！こちらからお願い致します</p>
@@ -67,7 +174,19 @@
     <div align="center">
       <button type="button" class="btn btn-primary btn-lg">Subscribe Now</button>
     </div>
-
+    <div>
+      <button type="button" class="btn btn-primary">
+        いいね
+        <span class="badge badge-light ml-2">10</span>
+       </button>
+        <span class="badge badge-primary ml-2">Primary</span>
+        <span class="badge badge-pill badge-primary ml-2">Primary</span>
+    </div>
+    <section>
+        <div class="text-center">
+        <%= image_tag 'slider.jpg'%>
+    </div>
+</section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
