@@ -12,7 +12,7 @@
 
     <style type="text/css"><!--
     .jumbotron { 
-      background:url(<%= asset_path 'bg.jpg' %>) center no-repeat; 
+      background:url(<%= asset_path '1.jpg' %>) center no-repeat; 
       background-size: cover;
     }
     </style>
@@ -23,56 +23,50 @@
       　　　　　　　　Navbar
 ==============================================-->
  <section>
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-</section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#"><%= image_tag 'brand.png'%></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav bg-white">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+ </section>
 <!--=============================================
       　　　　　　　　Top
 ==============================================-->
   <section class="jumbotron text-center">
    <div class="container">
-          <h3 class="display-4 mb-3 text-white">Baseline</h3>
-          <p class="lead text-muted">Something short and <br>
-          leading about the collection below—its contents, <br>
-          the creator, etc. Make it short and sweet, <br>
-          </p>
-          <p class="lead text-muted">
-          but not too short so folks <br>
-          don't simply skip over it entirely.</p>
           <p></p>
+          <p></p>
+          <p></p>
+          <h3 class="display-4 mb-3 text-muted"></h3>
+          <p class="lead text-gray mt-4 mb-4 pt-6 pb-6">
+          "Imagine the world, <br>
+          We can enjoy work and not worry about money.. <br>
+          and fully committed to work for,
+          those who really need..." <br>
+          </p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p class="lead text-gray mt-4 mb-4 pt-6 pb-6">
+          At Bims, We're fully commited to make <br>
+          Ecosystem for those who really need<br>
           <p></p>
           <p></p>
    </div>     
@@ -80,44 +74,143 @@
 <!--=============================================
       　　　　　　　　Mission
 ==============================================-->
+  <section>
+  <!-- ミッション -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <h3 class="display-5 mb-1 text-center">Mission</h3>
+            <p class="text-gray text-center">ミッション</p>
+            <hr>
+            <p class="pt-2 text-center font-weight-bold">
+            世界中の方々が、<br>
+            安心して働くことを楽しめる、<br>
+            そして社会貢献を楽しめるような<br>
+            世の中にしたい</p>
+            <p class="container pb-4 text-justify">
+            今まさに時代が変わろうとしています。これはここ20年に起こったインターネットによる変化をさらに革新的なものにする、今までの20年がインターネット革命の序章に過ぎなかったと言えるぐらいの変化が起こると確信しています。我々はこの変化は未だ変わっていない個人の働き方や生活を次々と変えていき、想像もできないくらい幸せな世の中へと変えていくことだと思います。この部分に我々は少しでも貢献し、次の時代へと変わりゆくステップとしての土台(ベース）を作りたいと考えています。この土台を我々は新しい社会保障と考え、この新しい社会保障のようなサービスを提供していきたいと考えております。
+          </div>
+        </div>
+      </div>
+    </section> 
 <!--=============================================
       　　　　　　　　Service
 ==============================================-->
-  <section>
-  <!-- マネースクール -->
+  <section id="service">
+  <!-- サービス -->
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm">
             <h3 class="display-5 mb-1 text-center">Service</h3>
             <p class="text-gray text-center">事業内容</p>
             <hr>
-            <p class="display-5 text-center font-weight-bold">マネースクール</p>
-            <p class="text-center">金融ワカラナイ...でも、<br>お金に前向きな大人女子のコミュニティ</p>
-            <p class="text-center">金融ワカラナイ...でも、<br>お金に前向きな大人女子の<br>コミュニティ</p>
-            <p class="text-justify">
-            どこの金融機関にも属さず、金融商品・サービスの販売や紹介を目的としていない「中立」で「フラット」な女性コミュニティです。昇進、独立、転職、結婚など一番「人生が変わる」、そして「迷う」転換期に必ず付いて回るのが「お金」のことです。お金と向き合うことでお金に囚われず、自由で等身大に生きることを目的として運営しています。金融街兜町を拠点に活動し、金融×女子の視点で、まちづくりやイベントプロデュース、コンサルティング、商品企画などを行っています。
+            <p class="display-5 text-center font-weight-bold">サービス開発</p>
+            <p class="text-center">既存の技術を使っていかにコストをかけず、<br>
+            サービスを開発するか、またサービスの成功率を上げるかを日々研究しています。</p>
+            <p class="text-center">新しいリーンスタートアップの形を作り<br>
+            成功率をあげる、、、<br>
+            こちらのR＆Dのような機能を持っています</p>
+ 
+<!--=============================================
+      　　　　　　　　new service
+            <hr>
+            <p class="display-5 text-center font-weight-bold">エンジニアファースト</p>
+            <p class="text-center">今までにない新しい求人サービスを、<br>この合言葉をもとに試行錯誤して作ったサービスがついに開始されます</p>
+            <p class="text-center">エンジニアがなかなかみつからないし、<br>
+            オファーを出すまでに時間がかかりすぎる、、、<br>そんな悩みを解決するための求人サービスです</p>
+            <p class="container text-justify">
+            これまでにない新しい求人サービスでエンジニアの採用をより効率的にしてみませんか？膨大なHRコストを削減するための施策を我々は取り組み、このサービスは生まれようとしています。興味のある方はぜひお問い合わせください。
+            </p>
+            <hr>
+            <p class="display-5 text-center font-weight-bold">テクニカラー</p>
+            <p class="text-center">学歴や過去に囚われない技術力をつけて<br>新しい自分にチャレンジできるテクニカラーという教育手段</p>
+            <p class="text-center">プログラミングなんてワカラナイ...でも、<br>新しくエンジニアの道を目指すひとのための<br>プログラミングスクール</p>
+            <p class="container text-justify">
+            東京大学、慶應大学、早稲田大学・・このような四年制大学にいけないと就職活動は困難でしょうか？ほんの10年前までは困難だったかもしれません。ただ今は少しづつそのような常識は変わりつつあります。四年制大学に毎年何百万円をつぎ込まなくても一流の教育を受けることは可能になりつつあります。私達のプログラミングスクールはそのような概念の一歩として提供している教育サービスです。
+            </p>
             <hr class="mb-2">
-            <p class="display-5 text-center font-weight-bold">マネースクール</p>
-            <p class="text-center">金融ワカラナイ...でも、<br>お金に前向きな大人女子のコミュニティ</p>
-            <p class="text-center">金融ワカラナイ...でも、<br>お金に前向きな大人女子の<br>コミュニティ</p>
-            <p class="text-justify">
-            どこの金融機関にも属さず、金融商品・サービスの販売や紹介を目的としていない「中立」で「フラット」な女性コミュニティです。昇進、独立、転職、結婚など一番「人生が変わる」、そして「迷う」転換期に必ず付いて回るのが「お金」のことです。お金と向き合うことでお金に囚われず、自由で等身大に生きることを目的として運営しています。金融街兜町を拠点に活動し、金融×女子の視点で、まちづくりやイベントプロデュース、コンサルティング、商品企画などを行っています。
+            <p class="display-5 text-center font-weight-bold">マネーズ</p>
+            <p class="text-center">金融ワカラナイ...でも、<br>お金に前向きな大人女子の動画教育サービス</p>
+            <p class="text-center">金融、保険って難しいですよね、<br>でもお金のことをもっと知りたい<br>そんな方の動画教育サービスです</p>
+            <p class="container text-justify">
+            どこの金融機関にも属さず、金融商品・サービスの販売や紹介を目的としていない「中立」で「フラット」な教育を提供したい。お金に関する必要知識を勉強することはなかなか難しい現実があります。どこから始めたらいいのかわからない、誰に聞いたらいいのかわらかない、そして株、FX、保険、仮想通貨、社会保障、、たくさんあり過ぎて勉強が追いつかない。。そんな方々に貢献するために生まれたのがこちらの動画教育サービスです。
+==============================================-->
           </div>
         </div>
       </div>
     </section> 
 <!--=============================================
+      　　　　　　　　Service
+==============================================-->
+  <section id="product">
+  <!-- サービス -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <h3 class="display-5 mb-1 text-center">Product</h3>
+            <p class="text-gray text-center">プロダクト</p>
+            <hr>
+            <p class="display-5 text-center font-weight-bold">エンジニアファースト</p>
+            <p class="text-center">今までにない新しい求人サービスを、<br>この合言葉をもとに試行錯誤して作ったサービスがついに開始されます</p>
+            <p class="text-center">エンジニアがなかなかみつからないし、<br>
+            オファーを出すまでに時間がかかりすぎる、、、<br>そんな悩みを解決するための求人サービスです</p>
+            <p class="container text-justify">
+            これまでにない新しい求人サービスでエンジニアの採用をより効率的にしてみませんか？膨大なHRコストを削減するための施策を我々は取り組み、このサービスは生まれようとしています。興味のある方はぜひお問い合わせください。
+            </p>
+            <hr>
+            <p class="display-5 text-center font-weight-bold">テクニカラー</p>
+            <p class="text-center">学歴や過去に囚われない技術力をつけて<br>新しい自分にチャレンジできるテクニカラーという教育手段</p>
+            <p class="text-center">プログラミングなんてワカラナイ...でも、<br>新しくエンジニアの道を目指すひとのための<br>プログラミングスクール</p>
+            <p class="container text-justify">
+            東京大学、慶應大学、早稲田大学・・このような四年制大学にいけないと就職活動は困難でしょうか？ほんの10年前までは困難だったかもしれません。ただ今は少しづつそのような常識は変わりつつあります。四年制大学に毎年何百万円をつぎ込まなくても一流の教育を受けることは可能になりつつあります。私達のプログラミングスクールはそのような概念の一歩として提供している教育サービスです。
+            </p>
+<!--=============================================
+      　　　　　　　　new service
+
+            <hr class="mb-2">
+            <p class="display-5 text-center font-weight-bold">マネーズ</p>
+            <p class="text-center">金融ワカラナイ...でも、<br>お金に前向きな大人女子の動画教育サービス</p>
+            <p class="text-center">金融、保険って難しいですよね、<br>でもお金のことをもっと知りたい<br>そんな方の動画教育サービスです</p>
+            <p class="container text-justify">
+            どこの金融機関にも属さず、金融商品・サービスの販売や紹介を目的としていない「中立」で「フラット」な教育を提供したい。お金に関する必要知識を勉強することはなかなか難しい現実があります。どこから始めたらいいのかわからない、誰に聞いたらいいのかわらかない、そして株、FX、保険、仮想通貨、社会保障、、たくさんあり過ぎて勉強が追いつかない。。そんな方々に貢献するために生まれたのがこちらの動画教育サービスです。
+==============================================-->
+          </div>
+        </div>
+      </div>
+    </section> 
+
+<!--=============================================
+      　　　　　　　　thumbnails/lorempixel
+
+  <section>
+    <div class="container">
+        <a href="#">
+          <%= image_tag 'company.jpg', :class => "rounded-circle" %>
+        </a>
+    </div>
+  </section>
+==============================================-->
+<!--=============================================
       　　　　　　　　Company
 ==============================================-->
-    <section class="bg-light">
+    <section class="container pt-4 mt-2 bg-light">
       <div>
-        <h3 class="display-5 mb-1 text-center">Company</h3>
+        <h3 class="display-5 mt-2 mb-1 text-center">Company</h3>
         <p class="text-gray text-center">会社概要</p>
         <hr>
       </div>
-      <div class="container-fluid">
+      <div>
+        <div class="container text-center pb-4 mb-2">
+          <%= image_tag 'company.jpg', :class => "img-responsive" %>
+        </div>
+        <p class="text-center">現在計画中</p>
+        <!--=============================================
+      　　　　　　　　Company
+
         <div class="row ml-2 mr-2">
-          <dl class="row">
+          <dl class="row pb-4">
+            <dt></dt>
+            <dd></dd>
             <dt class="col-sm-3">Description lists</dt>
             <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
 
@@ -144,133 +237,72 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="embed-responsive embed-responsive-16by9 mr-2">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-      </div>
-    </section>
-
-    <div class="container mt-4">
-      <dir class="card-deck">
-        <div class="card">
-          <div class="card-img">
-               <%= image_tag 'bg.jpg', :class => "card-img-top img-circle" %>
-          </div>
-          <div class="card-body">
-           <h3>皇帝ペンギン</h3>
-           <h4 class="card-subtitle mb-3 text-muted">Emperor Penguin</h4>
-           <p class="card-text">
-             工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン
-           </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-img">
-               <%= image_tag 'bg.jpg', :class => "card-img-top" %>
-          </div>
-          <div class="card-body">
-           <h3>皇帝ペンギン</h3>
-           <h4 class="card-subtitle mb-3 text-muted">Emperor Penguin</h4>
-           <p class="card-text">
-             工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン
-           </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-img">
-               <%= image_tag 'bg.jpg', :class => "card-img-top" %>
-          </div>
-          <div class="card-body">
-           <h3>皇帝ペンギン</h3>
-           <h4 class="card-subtitle mb-3 text-muted">Emperor Penguin</h4>
-           <p class="card-text">
-             工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン工程ペンゲギン
-           </p>
-          </div>
-        </div>
-      </dir>
-    </div>
-    </section>
-    <section>
-    <div class="container-fluid mt-4">
-      <div class="progress">
-        <div class="progress-bar w-75"></div>
-      </div>
-      <hr>
-      <div class="progress">
-        <div class="progress-bar bg-warning" style="width: 77%"></div>
-      </div>
-      <hr>
-      <div class="progress" style="height: 10px">
-        <div class="progress-bar" style="width: 27%"></div>
-      </div>
-      <hr>
-    </div>
-    </section>
-    <div class="container">
-      <div class="row">
-        <div class="col-4 order-1 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-info">カラム1</div>
-        <div class="col-4 order-4 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-success">カラム2</div>
-        <div class="col-4 order-5 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-info">カラム3</div>
-        <div class="col-4 order-6 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-success">カラム4</div>
-        <div class="col-4 order-2 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-info">カラム5</div>
-        <div class="col-4 order-3 col-sm-6 col-mg-4 col-lg-3 col-xl-1 bg-success">カラム6</div>
-      </div>
-    </div>
-
-    <h1>Hello, World!</h1>
-
-    <p class="lead">いつもありがとうございます！こちらからお願い致します</p>
-    <p>いつもありがとうございます！こちらからお願い致します</p>
-    <p><mark>いつもありがとうございます！こちらからお願い致します</mark></p>
-
-    <div class="container-fluid">
-        <div>
-             <table class="table table-hover">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
-                </tbody>
-              </table>
-        </div>
-    </div>
-    <div align="center">
-      <button type="button" class="btn btn-primary btn-lg">Subscribe Now</button>
-    </div>
+    ==============================================-->
+<!--=============================================
+      　　　　　　　　Contact
+==============================================-->
+<section id="contact">
+  <div id="contact" class="block container">
     <div>
-      <button type="button" class="btn btn-primary">
-        いいね
-        <span class="badge badge-light ml-2">10</span>
-       </button>
-        <span class="badge badge-primary ml-2">Primary</span>
-        <span class="badge badge-pill badge-primary ml-2">Primary</span>
+        <h3 class="display-5 mt-2 mb-1 text-center">Contact</h3>
+        <p class="text-gray text-center">お問い合わせ</p>
+        <hr>
     </div>
+    <p class="text-center contact-description">サービス・事業に関するお問い合わせなどお気軽にご連絡ください。</p>
+    <form class="contact-form text-center">
+      <fieldset>
+        <div class="center">
+          <div class="contact-form-input">
+            <label>お名前 <!-- <span class="label label-danger">必須</span> --></label>
+            <input type="text" id="name" class="contact-form-input" placeholder="">
+          </div>
+          
+          <!-- 新規追加 -->
+          <div class="contact-form-input">
+            <label>会社名</label>
+            <input type="text" id="company" class="contact-form-input" placeholder="">
+          </div>
+
+          <!-- 新規追加 -->
+          <div class="contact-form-input">
+            <label>会社URL</label>
+            <input type="text" id="hp_url" class="contact-form-input" placeholder="">
+          </div>
+
+          <div class="contact-form-input">
+            <label>メールアドレス</label>
+            <input type="text" id="email" class="contact-form-input" placeholder="">
+          </div>
+
+          <!-- 新規追加 -->
+          <div class="contact-form-input">
+            <label>電話番号</label>
+            <input type="text" id="phone_number" class="contact-form-input" placeholder="">
+          </div>
+          
+          <div class="contact-form-input">
+            <label>件名</label>
+            <input type="text" id="title" class="contact-form-input" placeholder="">
+          </div>
+          
+          <div class="contact-form-input">
+            <label>お問合せ内容</label>
+            <textarea id="message" name="message" class="contact-form-input" rows="10" placeholder=""></textarea>
+          </div>
+          
+          <div class="form-btn tx-center">
+            <button class="btn btn-light btn-white" type="button" id="reset">リセット</button>
+            <button class="btn btn-primary" type="button" id="save">送信する</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</section>
+
     <section>
         <div class="text-center">
-        <%= image_tag 'slider.jpg'%>
+        <%= image_tag ''%>
     </div>
 </section>
     <!-- Optional JavaScript -->
